@@ -46,7 +46,7 @@ Deposit.init(
     sequelize,
     modelName: 'Deposit',
     timestamps: false,
-    tableName: 'deposits',
+    tableName: 'Deposits',
   }
 );
 

@@ -62,7 +62,7 @@ User.init(
     sequelize,
     modelName: 'User',
     timestamps: false,
-    tableName: 'users',
+    tableName: 'Users',
     hooks: {
       beforeCreate: async (user: User) => {
         const salt = await bcrypt.genSalt(10);
