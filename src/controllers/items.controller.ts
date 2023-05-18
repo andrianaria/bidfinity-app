@@ -11,7 +11,7 @@ interface CustomRequest extends ExpressRequest {
   user: { id: number }; // Add the 'user' property with its type
 }
 
-const getOngoingItems = async (req: Request, res: Response) => {
+const getOngoingItems = async (req: ExpressRequest, res: Response) => {
   try {
     const items = await Item.findAll({
       attributes: [
@@ -58,7 +58,7 @@ const getOngoingItems = async (req: Request, res: Response) => {
   }
 };
 
-const getCompletedItems = async (req: Request, res: Response) => {
+const getCompletedItems = async (req: ExpressRequest, res: Response) => {
   try {
     const currentTimestamp = Date.now();
 
