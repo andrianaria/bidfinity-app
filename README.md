@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bidfinity - Bidding made easy
 
-## Available Scripts
+Description
 
-In the project directory, you can run:
+This project is a backend application built with Node.js, Express.js, TypeScript, Sequelize, and MySQL. It provides a RESTful API for the bidfinity features from User registration to simple bidding system.
 
-### `npm start`
+Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Node.js and npm installed on your machine
+2. MySQL server set up and running
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Installation
 
-### `npm test`
+1. Clone the repository:
+   `git clone [repository-url]`
+2. Install dependencies:
+   `cd [project-directory]`
+   `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Configuration
 
-### `npm run build`
+1. Rename the .env.example file to .env.
+2. Open the .env file and provide the necessary configuration values for your MySQL database.
+3. Migrate the database structure: `npx sequelize-cli db:migrate`
+4. Seed the data for your local testing purposes: `npx sequelize-cli db:seed:all`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Usage
+To start the server, run the following command:
+`npm start`
+The server will start running on http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+API Endpoints
+<TBD></TBD>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributing
 
-### `npm run eject`
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open a GitHub issue or submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Contact
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+http://riaandriana.com

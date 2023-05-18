@@ -1,0 +1,22 @@
+{
+  "bid": {
+    "error": {
+      "fiveSecondsLimit": "Cannot place a bid within 5 seconds of your last bid",
+      "notEnoughBalance": "Not enough balance to place the bid. Please make a deposit",
+      "userNotFound": "User not found"
+    }
+  },
+  "item": {
+    "error": {
+      "itemNotFound": "Item not found"
+    }
+  },
+  "user": {
+    "error": {
+      "alreadyRegistered": "Email already registered'"
+    }
+  },
+  "common": {
+    "error": "Something went wrong. Error: {{error}}"
+  }
+}
