@@ -23,7 +23,6 @@ const createBid = async (req: Request, res: Response) => {
       const currentTime = new Date();
       const lastBidTime = lastBid.created_at;
       const timeDifference = currentTime.getTime() - lastBidTime.getTime();
-      console.log(i18n.t('bid.error.fiveSecondsLimit'));
 
       if (timeDifference < 5000) {
         // Less than 5 seconds since the user's last bid

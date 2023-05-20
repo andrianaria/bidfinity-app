@@ -58,7 +58,7 @@ const getOngoingItems = async (req: ExpressRequest, res: Response) => {
   }
 };
 
-const getCompletedItems = async (req: ExpressRequest, res: Response) => {
+const getCompletedItems = async (req: Request, res: Response) => {
   try {
     const currentTimestamp = Date.now();
 
