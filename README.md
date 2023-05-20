@@ -6,6 +6,8 @@ Bidfinity - Bidding made easy
 
 This project is a backend application built with Node.js, Express.js, TypeScript, Sequelize, and MySQL. It provides a RESTful API for the bidfinity features from User registration to simple bidding system.
 
+Find the complete documentation here: https://coral-radio-b35.notion.site/Bidfinity-App-3bef0526fcae48e5875a9c1bc4c87bdc
+
 # Prerequisites
 
 1. Node.js and npm installed on your machine
